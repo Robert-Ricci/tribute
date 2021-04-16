@@ -17,6 +17,7 @@ main, header, section, aside, footer {
 }
 
 main {
+    text-align: center;
     background: #000000;
 }
 
@@ -25,6 +26,7 @@ main {
 }
 
 .hero {
+    text-align: center;
     background: #d22b1f;
 }
 
@@ -44,12 +46,18 @@ main {
     background: #616161;
 }
 
+#menu{
+    text-align: right;   
+   }
 
+img{
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    margin: auto;
+}
 
 /* 
-#menu{
- text-align: right;   
-}
 
     #info {
     text-align:center;
