@@ -1,6 +1,6 @@
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: green;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -17,7 +17,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -32,14 +32,17 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+      background-color: #ddd;
+      
+    }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
-  
+  .dropdown:hover .dropbtn {background-color: grey;}
+
 .wrapper {
     margin: auto;
     max-width: 75rem;
@@ -54,38 +57,38 @@
 main, header, section, aside, footer {
     margin: 0;
     padding: 20px;
-    border: 1px solid #000000;
-    color: #ffffff;
+    /* border: 1px solid #000000; */
+    color: black;
 }
 
 main {
     text-align: center;
-    background: #000000;
+    /* background: #000000; */
 }
 
 .header {
-    background: #03a9f4;
+    /* background: #03a9f4; */
 }
 
 .hero {
     text-align: center;
-    background: #d22b1f;
+    /* background: #d22b1f; */
 }
 
 .content {
     flex: 1;
-    background: #129a22;
+    /* background: #129a22; */
 }
 
 .sidebar {
     flex: 0 1 300px;
-    border: 1px solid #000000;
-    background: #673ab7;
+    /* border: 1px solid #000000; */
+    /* background: #673ab7; */
 }
 
 .footer {
-    border: 1px solid #000000;
-    background: #616161;
+    /* border: 1px solid #000000; */
+    /* background: #616161; */
 }
 
 #menu{
@@ -99,20 +102,3 @@ img{
     margin: auto;
 }
 
-/* 
-
-    #info {
-    text-align:center;
-}
-
-#heading{
-    text-align: center;
-}
-
-#tribute-info {
-    text-align: left;
-}
-
-#headline {
-    text-align: center;
-} */
