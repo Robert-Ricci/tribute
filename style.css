@@ -57,42 +57,42 @@
 main, header, section, aside, footer {
     margin: 0;
     padding: 20px;
-    /* border: 1px solid #000000; */
+    border: 1px solid #000000; 
     color: black;
 }
 
 main {
     text-align: center;
-    /* background: #000000; */
+     background: #000000; 
 }
 
 .header {
-    /* background: #03a9f4; */
+     background: #03a9f4; 
 }
 
 .hero {
     text-align: center;
-    /* background: #d22b1f; */
+     background: #d22b1f; 
 }
 
 .content {
     flex: 1;
-    /* background: #129a22; */
+     background: #129a22; 
 }
 
 .sidebar {
     flex: 0 1 300px;
-    /* border: 1px solid #000000; */
-    /* background: #673ab7; */
+    border: 1px solid #000000; 
+    background: #673ab7;
 }
 
 .footer {
-    /* border: 1px solid #000000; */
-    /* background: #616161; */
+    border: 1px solid #000000; 
+    background: #616161;
 }
 
 #menu{
-    text-align: right;   
+    text-align: center;   
    }
 
 img{
